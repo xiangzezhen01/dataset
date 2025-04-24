@@ -2,7 +2,7 @@
 The profiling data is stored in the data/profiling directory. The profiling data is stored in CSV format. The profiling data is stored in the following format:
 ### directory
 ```yaml
-profiling/
+data/
   ├── compute/          # Compute operator data (model- and hardware-dependent)
   │   └── {device}/    # Hardware type (e.g., a100/h100)
   │       └── {model}/  # Hugging Face model ID (e.g., meta-llama/Llama-2-70b-hf)
@@ -19,7 +19,7 @@ profiling/
 
 | **name**       | **Range**                                                                                                                  |
 |----------------|----------------------------------------------------------------------------------------------------------------------------|
-| device         | a40, a100, h100                                                                                                            ||
+| device         | a40, a100, h100                                                                                                            |
 | LLM            | Meta-Llama-3-70B, Meta-Llama-3-8B, CodeLlama-34b-Instruct-hf, InternLM-20b, Llama-2-7b-hf, Llama-2-70b-hf, phi-2, Qwen-72B |
 | network_device | a40_pairwise_nvlink, a100_dgx, a100_pairwise_nvlink, h100_dgx, h100_pairwise_nvlink                                        |
 
