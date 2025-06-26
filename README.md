@@ -8,3 +8,4 @@ LLMs Hyper-parameter dataset
 ## Inference
 - Vidur: A Large-Scale Simulation Framework For LLM Inference
 - Optimizing Large Language Model Hyperparameters for Code Generation
+- LLM-Inference-benchmark: https://github.com/argonne-lcf/LLM-Inference-Bench
